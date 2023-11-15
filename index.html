@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="banner">
+          <img src="photos/odin-lined.png" alt="Odin logo" />
+          ODIN
+        </div>
+        <div class="footer">
+          <div class="credit">
+            Photo by <a href="">Halie West</a> on <a href="">Unsplash</a>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="header">
+          <div class="text">
+            <div class="title">
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.<br />
+              Sign up <em>now</em> to get started.
+            </div>
+            <div class="title">You <em>know</em> you want to.</div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="title-form">Let's do this!</div>
+          <form class="form-content">
+              <div class="field">
+                <label for="user-first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="user-first-name" />
+              </div>
+              <div class="field">
+                <label for="user-last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="user-last-name" />
+              </div>
+              <div class="field">
+                <label for="user-email">EMAIL</label>
+                <input type="email" name="user-email" id="user-email"/>
+                <span></span>
+              </div>
+              <div class="field">
+                  <label for="phone-number">PHONE NUMBER</label>
+                  <input type="tel" name="user-phone-number" id="phone-number"/>
+                  <span class="validation-icon"></span>
+                </div>
+                <div class="field">
+                  <label for="user-password">PASSWORD</label>
+                  <input
+                    type="password"
+                    name="user-password"
+                    id="user-password"
+                  />
+                </div>
+              <div class="field">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="user-confirm-password"
+                  id="confirm-password"
+                />
+                <span></span>
+              </div>
+          </form>
+        </div>
+        <div class="submit-button-container">
+          <div class="right-footer">
+            <button class="create-account">Create Account</button>
+            <div class="log-in-message">
+              Already have an account?
+              <a class="footer-a" href="">Log in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
